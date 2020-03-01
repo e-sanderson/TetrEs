@@ -1941,7 +1941,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 400, y: 850}
+  m_SizeDelta: {x: 600, y: 3000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &518778857
 MonoBehaviour:
@@ -4708,6 +4708,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1694848851}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1322598947 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4955813371272374552, guid: 9263689afc60a974da875980a8146dcb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1694848851}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322598946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c9c6a3423e3e194aae51276b0b7de1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1388054199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6526,16 +6538,16 @@ PrefabInstance:
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1322598947}
     - target: {fileID: 4955813372891166110, guid: 9263689afc60a974da875980a8146dcb,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: toggleFullscreen
       objectReference: {fileID: 0}
     - target: {fileID: 4955813372891166110, guid: 9263689afc60a974da875980a8146dcb,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: 
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4955813371592786801, guid: 9263689afc60a974da875980a8146dcb,
         type: 3}

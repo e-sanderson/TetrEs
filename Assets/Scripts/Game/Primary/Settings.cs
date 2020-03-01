@@ -77,7 +77,7 @@ public static class Settings {
 
     public static bool dynamicColor = true;
 
-    public static bool fullScreen = true;
+    public static bool fullScreen = false;
 
     // Applies the "Classic" settngs template
     public static void applyClassicSettings() {

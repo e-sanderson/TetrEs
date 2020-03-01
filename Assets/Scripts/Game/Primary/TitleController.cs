@@ -17,12 +17,10 @@ public class TitleController : MonoBehaviour {
     // Shuffle Tetromino colors on first awake and load keybinds
     private void Awake() {
 
-        // First awake.
+        // First awake. Not sure if this is necessary but just in case
         if (Time.time == 0) {
             BlockUpdater.shuffleColorPallet();
-            if (Screen.fullScreen != Settings.fullScreen) {
-                Screen.fullScreen = Settings.fullScreen;
-            }
+            Settings.fullScreen = Screen.fullScreen;  // Just set the settings to whatever the screen starts as
         }
 
 

@@ -141,6 +141,7 @@ public class Board : MonoBehaviour {
                     }
                     resetPiece();
                     moveRepeatTimer.reset();
+                    BlockUpdater.updateSprites(); // Held ghost could have not been updated when there was a change
                     break;
                 default:
                     if (moveRepeatTimer.time == 0) {

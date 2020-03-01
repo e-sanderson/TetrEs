@@ -1327,7 +1327,7 @@ PrefabInstance:
     - target: {fileID: 4955813371272374555, guid: 9263689afc60a974da875980a8146dcb,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 850
+      value: 3000
       objectReference: {fileID: 0}
     - target: {fileID: 4955813371272374555, guid: 9263689afc60a974da875980a8146dcb,
         type: 3}
@@ -1384,11 +1384,6 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4955813371843953743, guid: 9263689afc60a974da875980a8146dcb,
-        type: 3}
-      propertyPath: m_Name
-      value: AutoRepeatSpeedSelect
-      objectReference: {fileID: 0}
     - target: {fileID: 4955813372555905290, guid: 9263689afc60a974da875980a8146dcb,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -1443,6 +1438,11 @@ PrefabInstance:
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955813371843953743, guid: 9263689afc60a974da875980a8146dcb,
+        type: 3}
+      propertyPath: m_Name
+      value: AutoRepeatSpeedSelect
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9263689afc60a974da875980a8146dcb, type: 3}
@@ -3319,7 +3319,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 219821547}
   m_HandleRect: {fileID: 219821546}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -8823,7 +8823,7 @@ PrefabInstance:
     - target: {fileID: 6548890214428170332, guid: 93295278bad2d304bac519ab1e31097a,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 850
+      value: 3000
       objectReference: {fileID: 0}
     - target: {fileID: 6548890214428170332, guid: 93295278bad2d304bac519ab1e31097a,
         type: 3}
@@ -11072,7 +11072,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 850, y: 850}
+  m_SizeDelta: {x: 850, y: 3000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2096557612
 MonoBehaviour:
